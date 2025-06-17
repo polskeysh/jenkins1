@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code...'
-                git url: 'ttps://github.com/polskeysh/jenkins1', branch: 'main' // Или master
+                git url: 'https://github.com/polskeysh/jenkins1', branch: 'main' // Или master
             }
         }
         stage('Build') {
